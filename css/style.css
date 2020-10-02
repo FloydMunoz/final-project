@@ -1,19 +1,17 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif; */
+
 .logo{
     width: 100px;
     height: 100px;
-}
+  }
 .navbar {
     width: 100%;
     Height: 100px;
-    background-color:  #d9d9d9;
-    
-     }
-  
-  li {
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(107,18,18,1) 100%);
+  }
+    li {
     display: inline;
-    }
+  }
   
   .nav-link {
       margin: 7px;
@@ -72,7 +70,30 @@ font-family: 'Oswald', sans-serif; */
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-
+  }
     footer {
-background-color: green;
-    }
+        background: rgb(255,0,0);
+        background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(107,18,18,1) 100%);
+    
+  }
+.kraigspic {
+    Height: 400px;
+    width: 400px;
+}
+  .kraigsbio {
+      width: 50%;
+      margin: 25px;
+  }
+  .row {
+      display: flex;
+  }
+  .blackswrapper {
+      display: flex;
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px #ccc
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;  
+  }
